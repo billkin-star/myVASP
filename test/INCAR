@@ -1,0 +1,3 @@
+SYSTEM = O atom 
+ISMEAR = 0  
+SIGMA = 0.01

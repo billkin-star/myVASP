@@ -1,0 +1,14 @@
+# VASP large / generated files
+WAVECAR
+CHGCAR
+CHG
+DOSCAR
+EIGENVAL
+OUTCAR
+IBZKPT
+PROCAR
+LOCPOT
+
+# parallel output
+vasprun.xml
+

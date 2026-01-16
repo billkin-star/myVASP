@@ -1,0 +1,27 @@
+SYSTEM Sio
+#LPLANE =T
+#NPAR   =1
+Startparameter for this run:
+  NWRITE = 1
+# ISPIN  = 2                spin polarized calculation?
+# ISPIND = 2                spin polarized calculation?
+  NELMIN = 4
+  NELMDL = -12              # of ELM steps
+  EDIFF  = 1E-05            stopping-criterion for ELM
+  LREAL  = .F               real-space projection
+Ionic relaxaton
+   EDIFFG =1E-04          stopping-criterion for IOM
+   NSW   = 20            number of steps for IOM
+   IBRION = 2               ionic relax: 0-MD 1-quasi-New 2-CG
+   ISTART = 0
+   ISMEAR = 0
+   SIGMA  = 0.02            broadening in eV -4-tet -1-fermi 0-gaus
+ Electronic relaxation 2 (details)
+#  IALGO  = 48
+Write flags
+#  ICHARG=    1
+   LWAVE  =   F    write WAVECAR
+   LCHARG =   F     write CHGCAR
+   LVTOT  =   F    write LOCPOT, local potential
+~
+

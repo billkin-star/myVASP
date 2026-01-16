@@ -1,0 +1,14 @@
+SYSTEM = Hg50_singlepoint
+PREC   = Accurate
+ENCUT  = 400
+ISMEAR = 0
+SIGMA  = 0.05
+ALGO   = Normal
+NELM   = 500
+EDIFF  = 1E-5
+LREAL  = Auto
+ADDGRID = .TRUE.
+ISPIN  = 1
+NSW    = 0
+AMIX   = 0.10
+BMIX   = 1E-4
