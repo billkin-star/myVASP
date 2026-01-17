@@ -1,5 +1,4 @@
 WAVECAR
-POSCAR
 POTCAR
 CHGCAR
 IBZKPT
@@ -14,3 +13,6 @@ CONTCAR
 PCDAT
 vaspout.h5
 vasprun.xml
+
+ENCUT_*
+kp_*

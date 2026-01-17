@@ -1,0 +1,3 @@
+HSE06自洽计算
+生成KPATH后252得到KPOINTS进行自洽计算
+从结果中可以利用vaspkit直接得到能带
