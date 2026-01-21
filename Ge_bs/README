@@ -1,0 +1,30 @@
+0 KPOINTS和ENCUT收敛性测试
+    POSCAR为惯用胞,所以KPOINTS需要扩大根号2倍
+    INCAR为ST静态计算,无离子弛豫
+
+1 PBE结构优化
+    INCAR为ISIF=3的离子弛豫计算,晶胞和原子位置均调整
+
+2 PBE自洽计算
+    利用1中优化后的结构CONTCAR改名为POSCAR
+    INCAR为ST静态计算,无离子弛豫   
+
+2 PBE非自洽计算(能带)
+    利用2中自洽计算后的WAVECAR和CHGCAR
+    INCAR为ICHARG=11的非自洽计算
+    KPOINTS为高对称路径
+
+3 HSE06自洽计算(错误)
+    POSCAR有误,计算结果不对
+    利用PBE自洽的WAVECAR加速HSE06计算
+    HSE计算流程1:HSE(grid+WAVECAR(PBE))->HSE(kpath+WAVECAR(HSE))
+
+4 HSE06自洽计算(结果有效)
+    POSCAR修改正确
+    HSE计算流程2:HSE(303生成KPATH.in后251生成HF专用KPOINTS)计算完成后可直接得到能带
+    这种方法初步测试结果与流程1一致,但此种小体系下比流程1快
+
+5 HSE06自洽计算(理想晶格常数)
+    POSCAR中晶格常数改为5.658Å的理想值
+    其他同4
+    
