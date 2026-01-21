@@ -1,3 +1,0 @@
-HSE06
-使用PBE自洽计算得到的WAVECAR
-不能读取电荷密度即ICHARGE不能设为11

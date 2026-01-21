@@ -1,0 +1,52 @@
+Global Parameters
+NCORE = 1
+KPAR = 8
+NSIM = 4
+LPLANE = .FALSE.
+
+ISTART =  1            (Read existing wavefunction, if there)
+ISPIN  =  1            (Non-Spin polarised DFT)
+# ICHARG =  11         (Non-self-consistent: GGA/LDA band structures)
+LREAL  = .FALSE.       (Projection operators: automatic)
+ENCUT  =  450          (Cut-off energy for plane wave basis set, in eV)
+PREC   =  Accurate     (Precision level: Normal or Accurate, set Accurate when perform structure lattice relaxation calculation)
+LWAVE  = .TRUE.        (Write WAVECAR or not)
+LCHARG = .TRUE.        (Write CHGCAR or not)
+ADDGRID= .TRUE.        (Increase grid, helps GGA convergence)
+# LVTOT  = .TRUE.      (Write total electrostatic potential into LOCPOT or not)
+# LVHAR  = .TRUE.      (Write ionic + Hartree electrostatic potential into LOCPOT or not)
+# NELECT =             (No. of electrons: charged cells, be careful)
+# LPLANE = .TRUE.      (Real space distribution, supercells)
+# NWRITE = 2           (Medium-level output)
+# KPAR   = 2           (Divides k-grid into separate groups)
+# NGXF    = 300        (FFT grid mesh density for nice charge/potential plots)
+# NGYF    = 300        (FFT grid mesh density for nice charge/potential plots)
+# NGZF    = 300        (FFT grid mesh density for nice charge/potential plots)
+ 
+Static Calculation
+ISMEAR =  0            (gaussian smearing method)
+SIGMA  =  0.05         (please check the width of the smearing)
+NELM   =  60           (Max electronic SCF steps)
+EDIFF  =  1E-06        (SCF energy convergence, in eV)
+ 
+HSE06 Calculation
+LHFCALC= .TRUE.       (Activate HF)
+AEXX   =  0.25        (25% HF exact exchange, adjusted this value to reproduce experimental band gap)
+HFSCREEN= 0.2         (Switch to screened exchange, e.g. HSE06)
+ALGO   =  ALL         (Electronic Minimisation Algorithm, ALGO=58)
+TIME   =  0.4         (Timestep for IALGO5X)
+PRECFOCK= N           (HF FFT grid)
+# NKRED    = 2        (Reduce k-grid-even only, see also NKREDX, NKREDY and NKREDZ)
+# HFLMAX   = 4        (HF cut-off: 4d, 6f)
+# LDIAG    = .TRUE.   (Diagnolise Eigenvalues)
+
+Spin-Orbit Coupling Calculation
+LSORBIT    = .TRUE.    (Activate SOC)
+GGA_COMPAT = .FALSE.   (Apply spherical cutoff on gradient field)
+VOSKOWN    =  1        (Enhances the magnetic moments and the magnetic energies)
+LMAXMIX    =  4        (For d elements increase LMAXMIX to 4, f: LMAXMIX = 6)
+ISYM       =  -1       (Switch symmetry off)
+
+#PDOS Calculation
+LORBIT =  11           (PAW radii for projected DOS)
+NEDOS  =  1000         (DOSCAR points) 

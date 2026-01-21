@@ -1,3 +1,13 @@
 HSE06
 使用PBE自洽计算得到的WAVECAR
 不能读取电荷密度即ICHARGE不能设为11
+
+二次修改
+INCAR中ALGO = ALL
+KPOINTS和PBE自洽一样
+POSCAR和WAVECAR绑定，如果希望在下一步计算中用到WAVECAR不要更改
+
+后续重新生成HSE的KPIONTS，读取HSE_scf的WAVECAR
+进行计算
+
+update：结果无法使用，POSCAR优化有误
