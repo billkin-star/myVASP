@@ -1,0 +1,19 @@
+Global Parameters(SCF Calculation, get charge density and wavefunction)
+ISTART =  1            (Read existing wavefunction, if there)
+ISPIN  =  1            (Non-Spin polarised DFT)
+ICHARG =  11           (Non-self-consistent: GGA/LDA band structures)
+LREAL  = .FALSE.       (Projection operators: automatic)
+ENCUT  =  450          (Cut-off energy for plane wave basis set, in eV)
+PREC   =  Accurate            (Precision level: Normal or Accurate, set Accurate when perform structure lattice relaxation calculation)
+LWAVE  = .TRUE.        (Write WAVECAR or not)
+LCHARG = .TRUE.        (Write CHGCAR or not)
+ADDGRID= .TRUE.        (Increase grid, helps GGA convergence)
+ 
+Static Calculation
+ISMEAR =  -5            (gaussian smearing method)
+SIGMA  =  0.05         (please check the width of the smearing)
+NELM   =  60           (Max electronic SCF steps)
+EDIFF  =  1E-06        (SCF energy convergence, in eV)
+ 
+LORBIT =  10           (PAW radii for projected DOS)
+NEDOS  =  1000         (DOSCAR points)
