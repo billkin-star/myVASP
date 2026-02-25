@@ -1,0 +1,152 @@
+data_Ge(1\0\0)_8layers_clean
+_audit_creation_date              2026-02-24
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    8.0009
+_cell_length_b                    8.0009
+_cell_length_c                    24.9006
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+Ge1    Ge   -0.00000   0.00000   0.29088   0.00000  Uiso   1.00
+Ge2    Ge    0.50000   0.50000   0.29088   0.00000  Uiso   1.00
+Ge3    Ge   -0.00000   0.00000   0.51808   0.00000  Uiso   1.00
+Ge4    Ge    0.50000   0.50000   0.51808   0.00000  Uiso   1.00
+Ge5    Ge    0.50000   0.00000   0.29088   0.00000  Uiso   1.00
+Ge6    Ge   -0.00000   0.50000   0.29088   0.00000  Uiso   1.00
+Ge7    Ge    0.50000   0.00000   0.51808   0.00000  Uiso   1.00
+Ge8    Ge   -0.00000   0.50000   0.51808   0.00000  Uiso   1.00
+Ge9    Ge    0.75000   0.25000   0.17728   0.00000  Uiso   1.00
+Ge10   Ge    0.25000   0.75000   0.17728   0.00000  Uiso   1.00
+Ge11   Ge    0.75000   0.25000   0.40448   0.00000  Uiso   1.00
+Ge12   Ge    0.25000   0.75000   0.40448   0.00000  Uiso   1.00
+Ge13   Ge    0.25000   0.25000   0.17728   0.00000  Uiso   1.00
+Ge14   Ge    0.75000   0.75000   0.17728   0.00000  Uiso   1.00
+Ge15   Ge    0.25000   0.25000   0.40448   0.00000  Uiso   1.00
+Ge16   Ge    0.75000   0.75000   0.40448   0.00000  Uiso   1.00
+Ge17   Ge    0.25000   0.00000   0.23408   0.00000  Uiso   1.00
+Ge18   Ge    0.75000   0.50000   0.23408   0.00000  Uiso   1.00
+Ge19   Ge    0.25000   0.00000   0.46128   0.00000  Uiso   1.00
+Ge20   Ge    0.75000   0.50000   0.46128   0.00000  Uiso   1.00
+Ge21   Ge   -0.00003   0.23766   0.12124   0.00000  Uiso   1.00
+Ge22   Ge    0.49998   0.77066   0.12148   0.00000  Uiso   1.00
+Ge23   Ge   -0.00000   0.25000   0.34768   0.00000  Uiso   1.00
+Ge24   Ge    0.50000   0.75000   0.34768   0.00000  Uiso   1.00
+Ge25   Ge    0.50001   0.23481   0.12131   0.00000  Uiso   1.00
+Ge26   Ge    0.00001   0.77050   0.12149   0.00000  Uiso   1.00
+Ge27   Ge    0.50000   0.25000   0.34768   0.00000  Uiso   1.00
+Ge28   Ge   -0.00000   0.75000   0.34768   0.00000  Uiso   1.00
+Ge29   Ge    0.75000   0.00000   0.23408   0.00000  Uiso   1.00
+Ge30   Ge    0.25000   0.50000   0.23408   0.00000  Uiso   1.00
+Ge31   Ge    0.75000   0.00000   0.46128   0.00000  Uiso   1.00
+Ge32   Ge    0.25000   0.50000   0.46128   0.00000  Uiso   1.00
+H33    H     0.99981   0.39156   0.08084   0.00000  Uiso   1.00
+H34    H     1.00002   0.06806   0.08796   0.00000  Uiso   1.00
+H35    H     0.99997   0.94492   0.09090   0.00000  Uiso   1.00
+H36    H     1.00004   0.62280   0.07877   0.00000  Uiso   1.00
+H37    H     0.50002   0.06366   0.08885   0.00000  Uiso   1.00
+H38    H     0.49996   0.38713   0.08029   0.00000  Uiso   1.00
+H39    H     0.49998   0.94498   0.09083   0.00000  Uiso   1.00
+H40    H     0.49995   0.62247   0.07893   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+Ge1    Ge23    2.450   .     S
+Ge1    Ge29    2.450   1_455 S
+Ge1    Ge17    2.450   .     S
+Ge1    Ge28    2.450   1_545 S
+Ge2    Ge24    2.450   .     S
+Ge2    Ge30    2.450   .     S
+Ge2    Ge18    2.450   .     S
+Ge2    Ge27    2.450   .     S
+Ge3    Ge31    2.450   1_455 S
+Ge3    Ge19    2.450   .     S
+Ge4    Ge32    2.450   .     S
+Ge4    Ge20    2.450   .     S
+Ge5    Ge17    2.450   .     S
+Ge5    Ge27    2.450   .     S
+Ge5    Ge24    2.450   1_545 S
+Ge5    Ge29    2.450   .     S
+Ge6    Ge18    2.450   1_455 S
+Ge6    Ge28    2.450   .     S
+Ge6    Ge23    2.450   .     S
+Ge6    Ge30    2.450   .     S
+Ge7    Ge19    2.450   .     S
+Ge7    Ge31    2.450   .     S
+Ge8    Ge20    2.450   1_455 S
+Ge8    Ge32    2.450   .     S
+Ge9    Ge29    2.450   .     S
+Ge9    Ge21    2.441   1_655 S
+Ge9    Ge25    2.441   .     S
+Ge9    Ge18    2.450   .     S
+Ge10   Ge30    2.450   .     S
+Ge10   Ge22    2.441   .     S
+Ge10   Ge26    2.441   .     S
+Ge10   Ge17    2.450   1_565 S
+Ge11   Ge31    2.450   .     S
+Ge11   Ge23    2.450   1_655 S
+Ge11   Ge27    2.450   .     S
+Ge11   Ge20    2.450   .     S
+Ge12   Ge32    2.450   .     S
+Ge12   Ge24    2.450   .     S
+Ge12   Ge28    2.450   .     S
+Ge12   Ge19    2.450   1_565 S
+Ge13   Ge25    2.441   .     S
+Ge13   Ge17    2.450   .     S
+Ge13   Ge30    2.450   .     S
+Ge13   Ge21    2.441   .     S
+Ge14   Ge26    2.441   1_655 S
+Ge14   Ge18    2.450   .     S
+Ge14   Ge29    2.450   1_565 S
+Ge14   Ge22    2.441   .     S
+Ge15   Ge27    2.450   .     S
+Ge15   Ge19    2.450   .     S
+Ge15   Ge32    2.450   .     S
+Ge15   Ge23    2.450   .     S
+Ge16   Ge28    2.450   1_655 S
+Ge16   Ge20    2.450   .     S
+Ge16   Ge31    2.450   1_565 S
+Ge16   Ge24    2.450   .     S
+Ge17   Ge10    2.450   1_545 S
+Ge18   Ge6     2.450   1_655 S
+Ge19   Ge12    2.450   1_545 S
+Ge20   Ge8     2.450   1_655 S
+Ge21   Ge9     2.441   1_455 S
+Ge21   H33     1.590   1_455 S
+Ge21   H34     1.590   1_455 S
+Ge22   H39     1.590   .     S
+Ge22   H40     1.590   .     S
+Ge23   Ge11    2.450   1_455 S
+Ge24   Ge5     2.450   1_565 S
+Ge25   H37     1.590   .     S
+Ge25   H38     1.590   .     S
+Ge26   Ge14    2.441   1_455 S
+Ge26   H35     1.590   1_455 S
+Ge26   H36     1.590   1_455 S
+Ge28   Ge16    2.450   1_455 S
+Ge28   Ge1     2.450   1_565 S
+Ge29   Ge14    2.450   1_545 S
+Ge29   Ge1     2.450   1_655 S
+Ge31   Ge16    2.450   1_545 S
+Ge31   Ge3     2.450   1_655 S
+H33    Ge21    1.590   1_655 S
+H34    Ge21    1.590   1_655 S
+H35    Ge26    1.590   1_655 S
+H36    Ge26    1.590   1_655 S
