@@ -1,0 +1,31 @@
+flowchart LR
+    %% 第一部分
+    subgraph P1 [一、结构优化]
+        direction TB
+        I1["输入文件:\n1. INCAR\n   - 电子步 (EDIFF, NELM, ISMEAR 等)\n   - 离子步 (IBRION, NSW, ISIF, POTIM 等)\n2. POSCAR\n3. POTCAR\n4. KPOINTS"]
+        O1["输出文件:\n- WAVECAR\n- CHGCAR\n- CONTCAR"]
+        
+        I1 --> O1
+    end
+
+    %% 第二部分
+    subgraph P2 [二、自洽计算 (SCF)]
+        direction TB
+        I2["输入文件:\n1. INCAR (静态计算设置)\n2. POSCAR\n3. POTCAR\n4. KPOINTS"]
+        O2["输出文件:\n- WAVECAR\n- CHGCAR\n- CONTCAR"]
+        
+        I2 --> O2
+    end
+
+    %% 第三部分
+    subgraph P3 [三、能带/态密度计算 (Non-SCF)]
+        direction TB
+        I3["输入文件:\n1. INCAR (设置 ICHARG=11)\n2. POSCAR\n3. POTCAR\n4. KPOINTS (高对称路径/高密度网格)\n5. CHGCAR (读取电荷)"]
+        O3["输出文件:\n- WAVECAR\n- CHGCAR\n- CONTCAR"]
+        
+        I3 --> O3
+    end
+
+    %% 跨步骤连线
+    O1 -- "将 CONTCAR 复制并重命名为" --> I2
+    O2 -- "将 CHGCAR 复制过来用于非自洽" --> I3
