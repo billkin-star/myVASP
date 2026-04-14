@@ -1,0 +1,38 @@
+SYSTEM = Ge dimer EXP HSE06 SCF
+NCORE  = 5
+
+ISTART = 1
+ICHARG = 1
+ISPIN  = 1
+
+#ISYM = 0
+ENCUT  = 450
+PREC   = Normal
+ADDGRID = .TRUE.
+LWAVE  = .TRUE.
+LCHARG = .TRUE.
+#LREAL= Auto
+
+ISMEAR = 0
+SIGMA  = 0.05
+EDIFF  = 1E-5
+NELM   = 100
+
+AMIX   = 0.2
+BMIX   = 0.0001
+AMIN   = 0.01
+
+LDIPOL = .TRUE.
+IDIPOL = 3
+
+GGA      = PE
+LHFCALC  = .TRUE.
+AEXX     = 0.25
+HFSCREEN = 0.2
+ALGO     = Damped
+TIME     = 0.2
+PRECFOCK = Normal
+HFRCUT   = -1
+
+LORBIT = 11
+NEDOS  = 3000

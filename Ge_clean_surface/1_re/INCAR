@@ -1,0 +1,31 @@
+system = Ge clean surface exp lattice
+NCORE = 8
+
+ISTART =  0            
+ISPIN  =  1           
+# ICHARG =  11        
+ENCUT  =  400         
+# PREC   =  Accurate   
+LWAVE  = .FALSE.       
+LCHARG = .FALSE.       
+ADDGRID= .TRUE.        
+LREAL = Auto
+
+LDIPOL = .TRUE.
+IDIPOL = 3
+ 
+Electronic Relaxation
+ISMEAR =  0            
+SIGMA  =  0.05        
+NELM   =  90           
+NELMIN =  6            
+EDIFF  =  1E-06        
+# GGA  =  PS          
+ 
+Ionic Relaxation
+NSW    =  100       
+IBRION =  2            
+ISIF   =  2           
+EDIFFG = -2E-02       
+# ISYM =  2           
+ 
