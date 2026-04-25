@@ -1,0 +1,25 @@
+SYSTEM = Ge slab HSE06 LOCPOT restart
+
+ISTART = 0
+ICHARG = 11
+ISPIN  = 1
+
+ISYM = 0
+ENCUT  = 450
+PREC   = Normal
+ADDGRID = .TRUE.
+LREAL= Auto
+
+NELM   = 0
+
+LDIPOL = .TRUE.
+IDIPOL = 3
+
+ALGO     = Normal
+GGA      = PE
+LHFCALC  = .FALSE.
+
+LVHAR  = .TRUE.
+
+LWAVE  = .FALSE.
+LCHARG = .FALSE.
